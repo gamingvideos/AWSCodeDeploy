@@ -22,6 +22,5 @@ artifacts:
     - package.json
     - package-lock.json
     - build/**/*
-    -.ebextensions/**/*
   base-directory: build
   name: artifact-$(date +%Y-%m-%d).zip
